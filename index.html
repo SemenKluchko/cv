@@ -5,12 +5,237 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link href="styles/all.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles//style.css">
     <title>Semen Kluchko</title>
 </head>
 
-<body>
+<body class="body">
+    <button class="burger-btn" type="button"></button>
+    <button class="close-btn" type="button">&times;</button>
+    <nav class="nav">
+        <ul class="menu">
+            <li class="menu-item">
+                <a class="anchor" href="#">
+                    Home
+                </a>
+            </li>
+            <li class="menu-item">
+                <a class="anchor" href="#skills">
+                    Skills
+                </a>
+            </li>
+            <li class="menu-item">
+                <a class="anchor" href="#education">
+                    Education
+                </a>
+            </li>
+            <li class="menu-item">
+                <a class="anchor" href="#languages">
+                    Languages
+                </a>
+            </li>
+            <li class="menu-item">
+                <a class="anchor" href="#other">
+                    Other
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <main class="main-content">
+        <article class="left-section">
+            <section class="left-content">
+                <section class="profile">
+                    <img class="profile-image" src="/images/Kluchko.jpg" alt="Semen Kluchko's photo">
+                    <h2 class="name">Semen Kluchko</h2>
+                    <p class="career">Front End Developer</p>
+                </section>
+                <section class="contact-info">
+                    <h3 class="main-title contact-title">Contact Info</h3>
+                    <ul>
+                        <li>
+                            <a href="https://www.linkedin.com/in/semyon-kliuchko-102892172/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/simon.kluchko/" target="_blank">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/SemenKluchko" target="_blank">
+                                <i class="fab fa-github-square"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:semenkluchko@gmail.com" target="_blank">
+                                <i class="fas fa-envelope-open-text"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://join.skype.com/invite/nfK8BpKX8zb0" target="_blank">
+                                <i class="fab fa-skype"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+                <section class="skills-section">
+                    <a name="skills"></a>
+                    <h3 class="main-title">Skills</h3>
+                    <ul>
+                        <li>
+                            <p class="skill-title">javascript</p>
+                            <section class="progress-bar">
+                                <section class="progress js-progress"></section>
+                            </section>
+                        </li>
+                        <li>
+                            <p class="skill-title">react</p>
+                            <section class="progress-bar">
+                                <section class="progress r-progress"></section>
+                            </section>
+                        </li>
+                        <li>
+                            <p class="skill-title">html/css</p>
+                            <section class="progress-bar">
+                                <section class="progress hs-progress"></section>
+                            </section>
+                        </li>
+                        <li>
+                            <p class="skill-title">jquery</p>
+                            <section class="progress-bar">
+                                <section class="progress jq-progress"></section>
+                            </section>
+                        </li>
+                        <li>
+                            <p class="skill-title">bootstrap</p>
+                            <section class="progress-bar">
+                                <section class="progress b-progress"></section>
+                            </section>
+                        </li>
+                        <li>
+                            <p class="skill-title">git</p>
+                            <section class="progress-bar">
+                                <section class="progress g-progress"></section>
+                            </section>
+                        </li>
+                        <li>
+                            <p class="skill-title">webpack</p>
+                            <section class="progress-bar">
+                                <section class="progress w-progress"></section>
+                            </section>
+                        </li>
+                    </ul>
+                </section>
+                <section class="references-section">
+                    <h3 class="main-title">Profile</h3>
+                    <section class="referee">
+                        <p class="sub-para">
+                            Diligent front-end developer with experience working with React applications. Skilled in
+                            developing responsive, adaptive, semantic and cross-browser web pages with modern CSS
+                            animations.
+                            Eager to join modern software company to build out-of-the-box solutions.
+                        </p>
+                    </section>
+                </section>
+            </section>
+        </article>
+        <aside class="right-section">
+            <section class="right-main-content">
+                <section class="experince sect">
+                    <h2 class="right-title">Experience</h2>
+                    <section class="timeline">
+                        <section class="left-tl-content">
+                            <h5 class="tl-title">Freelance</h5>
+                            <p class="para">September 2020 - onwards</p>
+                        </section>
+                        <section class="right-tl-content">
+                            <section class="tl-content">
+                                <h5 class="tl-title-2">Junior Developer</h5>
+                                <p class="para">
+                                    Taking a number of online training courses (Pluralsight, frontend-masters, etc.) and
+                                    individual courses (udemy) allowed me to get a better understanding of programming
+                                    and network fundamentals. I continue to practice and improve my skills in this area.
+                                </p>
+                            </section>
+                        </section>
+                    </section>
+                    <section class="timeline">
+                        <section class="left-tl-content">
+                            <h5 class="tl-title">Beetroot Academy</h5>
+                            <p class="para">December 2020 - April 2021</p>
+                        </section>
+                        <section class="right-tl-content">
+                            <section class="tl-content">
+                                <h5 class="tl-title-2">Trainee</h5>
+                                <p class="para">
+                                    Four months of intensive practice JavaScript & React, including CSS&HTML
+                                    fundamentals. I have done a lot of different tasks and worked in a team a lot.
+                                </p>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+                <section class="education sect">
+                    <a name="education"></a>
+                    <h2 class="right-title">education</h2>
+                    <section class="timeline">
+                        <section class="left-tl-content">
+                            <h5 class="tl-title">national transport university</h5>
+                            <p class="para">September 2015 - July 2019</p>
+                        </section>
+                        <section class="right-tl-content">
+                            <section class="tl-content">
+                                <h5 class="tl-title-2">Bachelor degree</h5>
+                                <p class="para">
+                                    Faculty of Management, Logistics and Tourism
+                                </p>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+                <section class="lang sect">
+                    <a name="languages"></a>
+                    <h2 class="right-title">Languages</h2>
+                    <section class="timeline">
+                        <section class="left-tl-content">
+                            <p class="para">English</p>
+                            <p class="para">Russian</p>
+                            <p class="para">Ukrainian</p>
+                        </section>
+                        <section class="right-tl-content">
+                            <section class="tl-content">
+                                <p class="para">Intermediate</p>
+                                <p class="para">Fluent</p>
+                                <p class="para">Native</p>
+                            </section>
+                        </section>
+                    </section>
+                    <section class="lang sect">
+                        <a name="other"></a>
+                        <h2 class="right-title">Other</h2>
+                        <section class="timeline">
+                            <section class="left-tl-content">
+                                <p class="para">Sports</p>
+                                <p class="para">Interests</p>
+                            </section>
+                            <section class="right-tl-content">
+                                <section class="tl-content">
+                                    <p class="para">Bicycle, Jogging, Table tennis, Football.
+                                    </p>
+                                    <p class="para">Traveling, Reading, Culinary, Coffee industry, F1.
+                                    </p>
+                                </section>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+        </aside>
+    </main>
 
     <script src="script.js"></script>
 </body>
