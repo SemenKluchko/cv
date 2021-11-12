@@ -140,7 +140,7 @@ body {
 
 .right-section {
     -ms-grid-column-span: 5;
-    grid-column: span 5;;
+    grid-column: span 5;
     background-color: #E8EBE8;
     height: 100%;
 }
@@ -217,7 +217,7 @@ body {
 
 
 /* Progress Bar */
-.progress-bar{
+.progress-bar {
     margin-top: 10px;
     width: 100%;
     height: .4rem;
@@ -225,25 +225,28 @@ body {
     position: relative;
     border-radius: 12px;
 }
-.progress{
+
+.progress {
     height: 100%;
     position: absolute;
     left: 0;
     background-color: #2D9CDB;
     border-radius: 12px;
-}
-.js-progress{
+} 
+
+.js-progress {
     width: 65%;
 }
 
-.r-progress{
+.r-progress { 
     width: 50%;
 }
 
 .hs-progress {
     width: 80%;
 }
-.jq-progress{
+
+.jq-progress {
     width: 45%;
 }
 
@@ -264,7 +267,6 @@ body {
     text-transform: uppercase;
     font-size: 1rem;
 }
-
 
 .sub-para{
     padding: 2rem 0;
