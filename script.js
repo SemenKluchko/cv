@@ -10,8 +10,6 @@ const d = document,
     modalLinks = d.querySelectorAll('.menu-item'),
     theHomeLink = navbar.firstChild;
 
-window.HTMLElement.prototype.scrollIntoView = function () { };
-
 // open dropdown list when user clicks on burger button
 burgerBtn.addEventListener('click', () => {
     burgerBtn.classList.add('burger-btn_hidden');
