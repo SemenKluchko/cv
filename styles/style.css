@@ -1,5 +1,8 @@
 
-/* Body */
+/* Body, Html */
+
+html { scroll-behavior: smooth; }
+
 body {
     background: #18232F;
     font: 400 1rem/1.6rem 'Roboto', Arial, Helvetica, sans-serif;
@@ -452,6 +455,7 @@ body {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        position: fixed;
     }
 
 }

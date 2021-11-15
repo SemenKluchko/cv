@@ -10,7 +10,6 @@ const d = document,
     modalLinks = d.querySelectorAll('.menu-item'),
     theHomeLink = navbar.firstChild;
 
-
 // open dropdown list when user clicks on burger button
 burgerBtn.addEventListener('click', () => {
     burgerBtn.classList.add('burger-btn_hidden');
@@ -25,6 +24,8 @@ closeBtn.addEventListener('click', () => {
     closeBtn.classList.remove('close-btn_hidden');
 })
 
+
+
 // click event on each anchor link should close the dropdown, first anchor will reload the page
 modalLinks.forEach(item => {
     item.addEventListener('click', (event) => {
@@ -32,8 +33,11 @@ modalLinks.forEach(item => {
         burgerBtn.classList.remove('burger-btn_hidden');
         navbar.classList.remove('menu-flex');
         closeBtn.classList.remove('close-btn_hidden');
-
     })
 })
+
+
+
+
 
 
